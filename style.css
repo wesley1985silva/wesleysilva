@@ -24,10 +24,33 @@ html * {
 
 }
 
+
+
 #principal {
     height: 600px;
     background-color: #5c5c5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.caixa {
+    background-color: #1f1f1f;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    /* ALINHAMENTO DO TEXTO NA CAIXA */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    color: white;
+    font-size: 30px;
+}
+
 
 #rodapé {
     height: 200px;
