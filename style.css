@@ -54,5 +54,13 @@ html * {
 
 #rodapé {
     height: 200px;
-    background-color: #505050
+    background-color: #505050;
+    /* ALINHAMENTO DOS ICONES DAS REDES SOCIAIS */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icones {
+    height: 100px;
+    margin: 20px;
 }
