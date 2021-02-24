@@ -1,6 +1,7 @@
 /* RESET CSS */
 html * {
     margin: 0px;
+    text-decoration: none;
 }
 
 #menu {
@@ -23,16 +24,18 @@ html * {
     margin: 20px;
 
 }
-
-
+main {
+    text-align: center;
+    background-color: #5c5c5c;
+    color: white;
+    padding: 20px;
+}
 
 #principal {
-    height: 600px;
     background-color: #5c5c5c;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .caixa {
